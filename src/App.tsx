@@ -1,6 +1,10 @@
 import NavBar from './Components/NavBar'
 import Hero from './Components/Hero'
 import About from './Components/About'
+import Technologies from './Components/Technologies';
+import Experience from './Components/Experience';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
 
 const App = () => {
   return (
@@ -9,10 +13,14 @@ const App = () => {
       <div className="fixed top-0 -z-10 h-full w-full">
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
       </div>
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-8"> 
         <NavBar />
         <Hero />
         <About />
+        <Technologies />
+        <Experience />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );
